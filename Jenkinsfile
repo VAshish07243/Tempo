@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Run script') {
       steps {
-        bat 'python src\\hello.py > output.txt'
+        bat 'python demo\\src\\hello.py > output.txt'
       }
     }
   }
