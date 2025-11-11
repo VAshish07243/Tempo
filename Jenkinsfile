@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Setup Python') {
       steps {
-        bat 'python --version'
+        bat 'python3 --version'
       }
     }
     stage('Install dependencies') {
@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Run script') {
       steps {
-        bat 'python demo\\src\\hello.py > output.txt'
+        bat 'python3 demo\\src\\hello.py > output.txt'
       }
     }
   }
