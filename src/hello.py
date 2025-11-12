@@ -1,1 +1,1 @@
-print("Hello from CICD Webhooks")
+print("Hello from CI/CD Webhooks!")
